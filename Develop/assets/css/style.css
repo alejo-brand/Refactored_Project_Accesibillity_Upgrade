@@ -51,7 +51,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -70,7 +70,7 @@ p {
     margin-left: 25px;
 }
 
-main {
+.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -92,23 +92,13 @@ main {
 .search img {
 max-height: 200px;
 }
-.search-engine-optimization h2 {
+/* Adding the class "subtitles" allows us to get all the h2 tags in one blocl of code*/
+.subtitles {
+   
     margin-bottom: 20px;
     font-size: 36px;
     }
-    
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    }
-    
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    }
-
-
-
+/* in this block of code we target the class "benefits" that is set with the aside tag*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,82 +109,21 @@ max-height: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/*in this block of code we can simplify all the styling atributes that are set within the "section" tags */
+.common_benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* adding a general class named "benefit_subtitles" we simplified to one block of code all the atributes of the h3 tags within the aside tag*/
+.benefit_subtitles {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* we targeted all the image styling with just one block of code using the same concept explained in line 117*/
+.common_benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
